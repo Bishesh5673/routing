@@ -7,6 +7,7 @@ import Product from "./pages/Product";
 import Login from "./pages/Login";
 import Header from "./components/Header";
 import PageNotFound from "./pages/PageNotFound";
+import ProductDetail from "./pages/ProductDetail";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/productdetail/:id" element={<ProductDetail />} />
         <Route path="*" element={<PageNotFound/>}/>
       </Routes>
     </div>
