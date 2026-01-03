@@ -11,7 +11,7 @@ function Header() {
       <NavLink to='/login' >Login</NavLink>
       <NavLink to='/product' >Product</NavLink>
       <NavLink to='/profile' >Profile</NavLink>
-
+      <NavLink to='/admin' >Admin</NavLink>
     </div>
   )
 }
